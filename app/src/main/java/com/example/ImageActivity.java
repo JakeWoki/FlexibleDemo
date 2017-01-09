@@ -37,6 +37,7 @@ public class ImageActivity extends AppCompatActivity {
         setContentView(R.layout.activity_image);
         mIcon = (ImageView) findViewById(android.R.id.icon);
         mTitle = (TextView) findViewById(android.R.id.title);
+        
         if (getIntent().hasExtra(IS_ACTIVITY_OPTIONS)) {
             isActivityOptions = getIntent().getBooleanExtra(IS_ACTIVITY_OPTIONS, false);
         }
