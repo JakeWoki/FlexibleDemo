@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowAllowEnterTransitionOverlap" tools:targetApi="21">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap" tools:targetApi="21">true</item>
+        <item name="android:windowSharedElementsUseOverlay" tools:targetApi="21">false</item>
+
+    </style>
+
+</resources>

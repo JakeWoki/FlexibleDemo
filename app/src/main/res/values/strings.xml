@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FlexibleDemo</string>
+
+
+    <string name="transition_designer_imageView" translatable="false">transition_designer_imageView</string>
+    <string name="transition_designer_title" translatable="false">transition_designer_title</string>
+
+</resources>
